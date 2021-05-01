@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css"> 
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <figure>
+                <img src="./img/fotocafe.png" alt="Juninho Cafes">
+                <figcaption>
+                    <h1>Juninho Café</h1>
+                </figcaption>
+            </figure>
+            <div>
+                <ul>
+                    <li>
+                        <a href="#principal">Sabores</a>
+                    </li>
+                    <li>
+                        <a href="#">Blog</a>
+                    </li>
+                    <li>
+                        <a href="#">Sobre</a>
+                    </li>
+                    <li>
+                        <a href="#contatos">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div id="introducao">
+            <div id="textoIntro">
+                <h1>Sabores</h1>
+                <q>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eaque ullam alias ab eligendi, provident neque consequuntur animi, eius possimus, ratione voluptatum eum aliquid necessit
+                atibus molestiae nostrum corrupti modi exercitationem!</q>
+                <p>
+                    Para saber mais clique <a href="#principal">aqui</a>!
+                </p>
+            </div>
+            <div id="autoria">
+                <a href='https://br.freepik.com/fotos/fundo'>Fundo foto criado por jigsawstocker - br.freepik.com</a>
+            </div>
+        </div>
+
+        <div id="principal">
+            <ul>
+                <li>
+                    <div class="capsulas">
+                        <img class="foto" src="#">
+                        <h3 class="nome">Nome</h3>
+                        <p>Intensidade: <b class="intensidade">Intensidade</b></p>
+                        <p class="descricao" onmouseover="this.style.border = '2px dotted black'" onmouseout="this.style.border = '0'">
+                            Descrição
+                        </p>
+                        <h3>Preço: R$<b class="preco">Preço</b></h3>
+                        <button onclick="this.innerHTML = 'COMPRADO'" ondblclick="this.innerHTML = 'Comprar'">
+                            Comprar
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="capsulas">
+                        <img class="foto" src="#">
+                        <h3 class="nome">Nome</h3>
+                        <p>Intensidade: <b class="intensidade">Intensidade</b></p>
+                        <p class="descricao" onmouseover="this.style.border = '2px dotted black'" onmouseout="this.style.border = '0'">
+                            Descrição
+                        </p>
+                        <h3>Preço: R$<b class="preco">Preço</b></h3>
+                        <button onclick="this.innerHTML = 'COMPRADO'" ondblclick="this.innerHTML = 'Comprar'">
+                            Comprar
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="capsulas"> 
+                        <img class="foto" src="#">
+                        <h3 class="nome">Nome</h3>
+                        <p>Intensidade: <b class="intensidade">Intensidade</b></p>
+                        <p class="descricao" onmouseover="this.style.border = '2px dotted black'" onmouseout="this.style.border = '0'">
+                            Descrição
+                        </p>
+                        <h3>Preço: R$<b class="preco">Preço</b></h3>
+                        <button onclick="this.innerHTML = 'COMPRADO'" ondblclick="this.innerHTML = 'Comprar'">
+                            Comprar
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="capsulas">
+                        <img class="foto" src="#">
+                        <h3 class="nome">Nome</h3>
+                        <p>Intensidade: <b class="intensidade">Intensidade</b></p>
+                        <p class="descricao" onmouseover="this.style.border = '2px dotted black'" onmouseout="this.style.border = '0'">
+                            Descrição
+                        </p>
+                        <h3>Preço: R$<b class="preco">Preço</b></h3>
+                        <button onclick="this.innerHTML = 'COMPRADO'" ondblclick="this.innerHTML = 'Comprar'">
+                            Comprar
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="capsulas">
+                        <img class="foto" src="#">
+                        <h3 class="nome">Nome</h3>
+                        <p>Intensidade: <b class="intensidade">Intensidade</b></p>
+                        <p class="descricao" onmouseover="this.style.border = '2px dotted black'" onmouseout="this.style.border = '0'">
+                            Descrição
+                        </p>
+                        <h3>Preço: R$<b class="preco">Preço</b></h3>
+                        <button onclick="this.innerHTML = 'COMPRADO'" ondblclick="this.innerHTML = 'Comprar'">
+                            Comprar
+                        </button>
+                    </div>
+                </li>
+                <li>
+                    <div class="capsulas">
+                        <img class="foto" src="#">
+                        <h3 class="nome">Nome</h3> 
+                        <p>Intensidade: <b class="intensidade">Intensidade</b></p>
+                        <p class="descricao" onmouseover="this.style.border = '2px dotted black'" onmouseout="this.style.border = '0'">
+                            Descrição
+                        </p>
+                        <h3>Preço: R$<b class="preco">Preço</b></h3>
+                        <button onclick="this.innerHTML = 'COMPRADO'" ondblclick="this.innerHTML = 'Comprar'">
+                            Comprar
+                        </button>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </main>
+
+    <footer>
+        <nav id="contatos">
+            <div class="contato">
+                <h3>Contato</h3>
+                <ul>
+                    <li>
+                        E-mail: <a href="mailto:juninhocafe@gmail.com">juninhocafe@gmail.com</a>
+                    </li>
+                    <li>
+                        Rua Lorem Ipsum, 999 - Bairro Barreiro, Salvador 
+                        - Bahia. 40000-000.
+                    </li>
+                    <li>
+                        Telefone: <a href="tel:(99)99999-9999">(99) 99999-9999</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="rede">
+                <h3>Redes Sociais</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <img src="https://raw.githubusercontent.com/Kenzie-Academy-Brasil/portfolio-start-sua-carreira/48a2adb58eb8428826a2fe244eda994d79e4db96/dia3/assets/img/linkedin.svg">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="https://raw.githubusercontent.com/Kenzie-Academy-Brasil/portfolio-start-sua-carreira/48a2adb58eb8428826a2fe244eda994d79e4db96/dia3/assets/img/instagram.svg">
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#">
+                            <img src="https://raw.githubusercontent.com/Kenzie-Academy-Brasil/portfolio-start-sua-carreira/48a2adb58eb8428826a2fe244eda994d79e4db96/dia3/assets/img/facebook-app-symbol.svg">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </footer>
+</body>
+</html>
